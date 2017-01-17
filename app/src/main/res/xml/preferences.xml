@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference.main_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="common_favorites"
+            android:title="@string/preference.favorites.title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="keep_screen"
+            android:title="@string/preference.keep_screen.title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference.video_settings" >
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:entries="@array/quality_names"
+            android:entryValues="@array/quality_values"
+            android:key="video_quality"
+            android:persistent="true"
+            android:defaultValue="16"
+            android:summary="%s"
+            android:title="@string/preference.video_quality.summary" />
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:entries="@array/player_names"
+            android:entryValues="@array/player_values"
+            android:key="video_player"
+            android:persistent="true"
+            android:defaultValue="ask"
+            android:summary="%s"
+            android:title="@string/preference.video_player.summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference.ui_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="compact_header"
+            android:title="@string/preference.compact_header.title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="animation"
+            android:title="@string/preference.animation.title" />
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:entries="@array/themes_names"
+            android:entryValues="@array/themes_values"
+            android:key="theme"
+            android:persistent="true"
+            android:defaultValue="1"
+            android:summary="%s"
+            android:title="@string/preference.theme.title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference.additional_settings">
+        <Preference android:title="@string/preference.check_for_update.title" android:key="check_update" />
+        <Preference android:title="@string/preference.changelog.title" android:key="changelog" />
+        <Preference android:title="@string/preference.homepage.title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://anilab.web-zone.com.ua" />
+        </Preference>
+        <Preference android:title="@string/preference.issue.title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bitbucket.org/XpycT/anilab-android/issues?status=new&amp;status=open" />
+        </Preference>
+        <Preference android:persistent="false" android:title="" android:key="pref_version" android:summary=""/>
+    </PreferenceCategory>
+</PreferenceScreen>

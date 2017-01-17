@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/info_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_normal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/font_normal"
+            android:id="@+id/text_description"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingRight="@dimen/spacing_small"
+            android:paddingLeft="@dimen/spacing_small"
+            android:paddingBottom="@dimen/spacing_normal" />
+
+        <LinearLayout
+            android:id="@+id/layout_gallery"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/gallery_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_header"
+                    android:text="@string/gallery"
+                    android:layout_marginLeft="@dimen/spacing_small"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <Button
+                    android:id="@+id/more_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more"
+                    android:layout_marginRight="@dimen/spacing_small"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignBaseline="@+id/gallery_header" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/screenshots"
+                android:layout_margin="@dimen/spacing_tiny"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/screen1"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:padding="@dimen/spacing_tiny"
+                    android:background="@color/primary_text"
+                    android:layout_margin="@dimen/spacing_tiny"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:id="@+id/screen2"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="@dimen/spacing_tiny"
+                    android:padding="@dimen/spacing_tiny"
+                    android:background="@color/primary_text"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

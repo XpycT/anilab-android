@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xpyct.apps.anilab.activities.DetailActivity">
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_share"
+        android:orderInCategory="10" />
+    <item android:id="@+id/action_settings" android:title="@string/settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

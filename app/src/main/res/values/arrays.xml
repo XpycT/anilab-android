@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="years">
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+    </string-array>
+    <string-array name="genres_animelend">
+        <item>Боевик</item>
+        <item>Военные</item>
+        <item>Гарем</item>
+        <item>Детектив</item>
+        <item>Драма</item>
+        <item>Киберпанк</item>
+        <item>Кодомо</item>
+        <item>Комедия</item>
+        <item>Короткометражное</item>
+        <item>Криминал</item>
+        <item>Махо-сёдзё</item>
+        <item>Меха</item>
+        <item>Мистика</item>
+        <item>Музыкальный</item>
+        <item>Повседневность</item>
+        <item>Полнометражное</item>
+        <item>Приключения</item>
+        <item>Психология</item>
+        <item>Романтика</item>
+        <item>Сёдзё</item>
+        <item>Сёдзё-ай</item>
+        <item>Сёнен</item>
+        <item>Сёнен-ай</item>
+        <item>Сказка</item>
+        <item>Спорт</item>
+        <item>Триллер</item>
+        <item>Ужасы</item>
+        <item>Фантастика</item>
+        <item>Фэнтези</item>
+        <item>Школа</item>
+        <item>Экшн</item>
+        <item>Этти</item>
+        <item>Юри</item>
+    </string-array>
+
+    <string-array name="genres_animelend_link">
+        <item>boevik</item>
+        <item>military</item>
+        <item>harem</item>
+        <item>detektiv</item>
+        <item>drama</item>
+        <item>cyberpunk</item>
+        <item>kodomo</item>
+        <item>komediya</item>
+        <item>korotkometrazhnoe</item>
+        <item>kriminal</item>
+        <item>maho-shoujo</item>
+        <item>mexa</item>
+        <item>mistika</item>
+        <item>musical</item>
+        <item>everyday</item>
+        <item>polnometrazhnoe</item>
+        <item>priklyucheniya</item>
+        <item>psixologiya</item>
+        <item>romantika</item>
+        <item>syodzyo</item>
+        <item>shoujo-ai</item>
+        <item>syonen</item>
+        <item>syonen-aj</item>
+        <item>skazka</item>
+        <item>sport</item>
+        <item>thriller</item>
+        <item>uzhasy</item>
+        <item>fantastika</item>
+        <item>fantasy</item>
+        <item>shkola</item>
+        <item>action</item>
+        <item>yetti</item>
+        <item>yuri</item>
+    </string-array>
+
+    <string-array name="genres_animespirit">
+        <item>Драма</item>
+        <item>Повседневность</item>
+        <item>Романтика</item>
+        <item>Комедия</item>
+        <item>Школа</item>
+        <item>Этти</item>
+        <item>Мистика</item>
+        <item>Приключения</item>
+        <item>Боевые искусства</item>
+        <item>Фантастика</item>
+        <item>Ужасы</item>
+        <item>Фэнтези</item>
+        <item>Меха</item>
+        <item>Вампиры</item>
+        <item>Сёнэн</item>
+        <item>Триллер</item>
+        <item>Пародия</item>
+        <item>Спорт</item>
+        <item>Сёдзё</item>
+        <item>Мистерия</item>
+    </string-array>
+
+    <string-array name="genres_animespirit_link">
+        <item>%E4%F0%E0%EC%E0</item>
+        <item>%EF%EE%E2%F1%E5%E4%ED%E5%E2%ED%EE%F1%F2%FC</item>
+        <item>%F0%EE%EC%E0%ED%F2%E8%EA%E0</item>
+        <item>%EA%EE%EC%E5%E4%E8%FF</item>
+        <item>%F8%EA%EE%EB%E0</item>
+        <item>%FD%F2%F2%E8</item>
+        <item>%EC%E8%F1%F2%E8%EA%E0</item>
+        <item>%EF%F0%E8%EA%EB%FE%F7%E5%ED%E8%FF</item>
+        <item>%E1%EE%E5%E2%FB%E5+%E8%F1%EA%F3%F1%F1%F2%E2%E0</item>
+        <item>%F4%E0%ED%F2%E0%F1%F2%E8%EA%E0</item>
+        <item>%F3%E6%E0%F1%FB</item>
+        <item>%F4%FD%ED%F2%E5%E7%E8</item>
+        <item>%EC%E5%F5%E0</item>
+        <item>%E2%E0%EC%EF%E8%F0%FB</item>
+        <item>%F1%B8%ED%FD%ED</item>
+        <item>%F2%F0%E8%EB%EB%E5%F0</item>
+        <item>%EF%E0%F0%EE%E4%E8%FF</item>
+        <item>%F1%EF%EE%F0%F2</item>
+        <item>%F1%B8%E4%E7%B8</item>
+        <item>%EC%E8%F1%F2%E5%F0%E8%FF</item>
+    </string-array>
+
+    <string-array name="genres_anidub">
+        <item>Боевые искусства</item>
+        <item>Война</item>
+        <item>Детектив</item>
+        <item>Для детей</item>
+        <item>Драма</item>
+        <item>История</item>
+        <item>Киберпанк</item>
+        <item>Комедия</item>
+        <item>Махо-сёдзё</item>
+        <item>Меха</item>
+        <item>Мистика</item>
+        <item>Музыкальный</item>
+        <item>Пародия</item>
+        <item>Повседневность</item>
+        <item>Приключения</item>
+        <item>Романтика</item>
+        <item>Сёдзё</item>
+        <item>Сёдзё-ай</item>
+        <item>Сёнэн</item>
+        <item>Сёнэн-ай</item>
+        <item>Самурайский боевик</item>
+        <item>Сказка</item>
+        <item>Спорт</item>
+        <item>Триллер</item>
+        <item>Ужасы</item>
+        <item>Фантастика</item>
+        <item>Фэнтези</item>
+        <item>Школа</item>
+        <item>Этти</item>
+    </string-array>
+    <string-array name="dubbers">
+        <item>Ancord</item>
+        <item>Cuba77</item>
+        <item>Nika Lenina</item>
+        <item>Онитян</item>
+        <item>Inspector_Gadjet</item>
+        <item>OSLIKt</item>
+        <item>Trina_D</item>
+        <item>Shina</item>
+        <item>Lord Alukart</item>
+        <item>MCShaman</item>
+        <item>Стефан</item>
+        <item>Keita</item>
+        <item>Holly</item>
+        <item>Lonely Dragon</item>
+        <item>Tinko</item>
+        <item>Tori</item>
+        <item>Oriko</item>
+        <item>Trouble</item>
+        <item>JAM</item>
+        <item>BalFor</item>
+        <item>Симбад</item>
+        <item>FruKt</item>
+        <item>Kiara_Laine</item>
+        <item>Гамлетка Цезаревна</item>
+        <item>NASTR</item>
+    </string-array>
+    <string-array name="quality_names">
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>@string/quality_ask</item>
+    </string-array>
+    <string-array name="quality_values">
+        <item>32</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="player_names">
+        <item>@string/player_ask</item>
+        <item>@string/player_integrated</item>
+    </string-array>
+    <string-array name="player_values">
+        <item>ask</item>
+        <item>integrated</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="themes_names">
+        <item>@string/theme_dark</item>
+        <item>@string/theme_light</item>
+    </string-array>
+    <string-array name="file_action_names_unwatched">
+        <item>@string/choice_video_watch</item>
+        <item>@string/choice_video_download</item>
+        <item>@string/choice_video_copy</item>
+        <item>@string/mask_as_watched</item>
+    </string-array>
+    <string-array name="file_action_names_watched">
+        <item>@string/choice_video_watch</item>
+        <item>@string/choice_video_download</item>
+        <item>@string/choice_video_copy</item>
+        <item>@string/mask_as_unwatched</item>
+    </string-array>
+</resources>

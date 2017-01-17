@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xpyct.apps.anilab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+    <application
+        android:name=".AniLabApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:theme="@style/AppTheme.Dark">
+        <activity android:name=".activities.MainActivity">
+            <layout
+                android:defaultHeight="500dp"
+                android:defaultWidth="750dp"
+                android:gravity="top|end"
+                android:minWidth="500dp"
+                android:minHeight="500dp" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".activities.SearchResultActivity" />
+
+        </activity>
+        <activity
+            android:name=".activities.SearchResultActivity"
+            android:launchMode="singleTop">
+            <layout
+                android:defaultHeight="500dp"
+                android:defaultWidth="750dp"
+                android:gravity="top|end"
+                android:minWidth="500dp"
+                android:minHeight="500dp" />
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.DetailActivity"
+            android:parentActivityName=".activities.MainActivity">
+            <layout
+                android:defaultHeight="500dp"
+                android:defaultWidth="750dp"
+                android:gravity="top|end"
+                android:minWidth="500dp"
+                android:minHeight="500dp" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xpyct.apps.anilab.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.PreferenceActivity"
+            android:label="@string/settings" />
+        <activity
+            android:name=".activities.VideoPlayerActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenLayout|screenSize" />
+
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp.OkHttpGlideModule"
+            android:value="GlideModule" />
+        <meta-data
+            android:name="com.xpyct.apps.anilab.managers.GlideConfiguration"
+            android:value="GlideModule" />
+
+        <activity
+            android:name=".activities.ScreenshotsActivity"
+            android:label="@string/title_activity_screenshots"
+            android:parentActivityName=".activities.DetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xpyct.apps.anilab.activities.DetailActivity" />
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="anilab.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="false" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.xpyct.apps.anilab" />
+
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:value="598.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:value="598.0dip" />
+
+        <provider
+            android:name=".managers.AppSuggestionProvider"
+            android:authorities="com.xpyct.apps.anilab.managers.AppSuggestionProvider" />
+
+        <service
+            android:name=".services.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".services.MyFirebaseInstanceIdService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

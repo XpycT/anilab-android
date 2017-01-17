@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name" translatable="false">AniLab</string>
+    <string name="settings">Settings</string>
+    <string name="action.search">Search</string>
+
+    <string name="menu.latest">Latest</string>
+    <string name="menu.popular">Popular</string>
+    <string name="menu.genres">By genres</string>
+    <string name="menu.dubbers">By dubbers</string>
+    <string name="menu.years">By years</string>
+    <string name="menu.favorites">Favorites</string>
+    <string name="menu.anime_rus">Anime with russian postscoring</string>
+    <string name="menu.tv_shows">TV Shows</string>
+    <string name="menu.new">New</string>
+    <string name="menu.ova" translatable="false">OVA</string>
+    <string name="menu.ona" translatable="false">ONA</string>
+    <string name="menu.specials">Specials</string>
+    <string name="menu.live_action" translatable="false">Live action</string>
+    <string name="menu.movies">Movies</string>
+    <string name="menu.ongoing">Ongoing</string>
+    <string name="menu.dorama">Doramas</string>
+    <string name="menu.anime_sub">Anime with subtitles</string>
+    <string name="menu.catalog">Anime catalog</string>
+
+    <string name="menu.anistar.thriller">Action</string>
+    <string name="menu.anistar.vampires">Vampires</string>
+    <string name="menu.anistar.detective">Detective</string>
+    <string name="menu.anistar.drama">Drama</string>
+    <string name="menu.anistar.history">History</string>
+    <string name="menu.anistar.cyberpunk">Cyberpunk</string>
+    <string name="menu.anistar.comedy">Comedy</string>
+    <string name="menu.anistar.maho_shoujo">Maho shoujo</string>
+    <string name="menu.anistar.fur">Mech</string>
+    <string name="menu.anistar.parodies">Parodies</string>
+    <string name="menu.anistar.senen">Senen</string>
+    <string name="menu.anistar.sports">Sport</string>
+    <string name="menu.anistar.misticism">Mystic</string>
+    <string name="menu.anistar.music">Music</string>
+    <string name="menu.anistar.everyday_life">Everyday Life</string>
+    <string name="menu.anistar.adventures">Adventures</string>
+    <string name="menu.anistar.romance">Romance</string>
+    <string name="menu.anistar.shoujo">Shoujo</string>
+    <string name="menu.anistar.senen_ay">Senen Ay</string>
+    <string name="menu.anistar.triller">Thriller</string>
+    <string name="menu.anistar.horror">Horror</string>
+    <string name="menu.anistar.fantastic">Sci-fi</string>
+    <string name="menu.anistar.fantasy">Fantasy</string>
+    <string name="menu.anistar.school">School</string>
+    <string name="menu.anistar.erotic">Ecchi / Erotic</string>
+
+    <!-- network exceptions -->
+    <string name="error.network">No connection</string>
+    <string name="error.network.subtitle">It seems you have no network connection.</string>
+    <string name="error.server">Server Exception</string>
+    <string name="error.server.subtitle">The server returned an exception.</string>
+    <string name="error.uncommon">WTF?!</string>
+    <string name="error.uncommon.subtitle">There was an exception which should not happen!</string>
+    <string name="error.timeout.cant_get_movie">Can\'t get full movie. Sorry :(</string>
+    <string name="error.timeout.no_file">Can\'t get movie link. Sorry :(</string>
+    <!-- storage exceptions -->
+    <string name="error.no_storage">External Storage not available</string>
+    <string name="error.no_data">No data available :(</string>
+    <string name="error.download.rutube">Can\'t download from rutube. Sorry :(</string>
+    <string name="error.download.myvi">Can\'t download from myvi.ru. Sorry :(</string>
+
+    <string name="select_year">Select year</string>
+    <string name="select_genre">Select genre</string>
+    <string name="select_dubber">Select dubber</string>
+    <string name="search_hint">Search anime</string>
+
+    <string name="version">Version</string>
+    <string name="close">Close</string>
+    <string name="changelog">Changelog</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_wait">please wait…</string>
+    <string name="update_now">Update now</string>
+    <string name="ignore_version">Ignore this version</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="new_update_available">New update available</string>
+    <string name="download_new_version">Download new version of AniLab</string>
+
+    <string name="preference.animation.title">Use animation</string>
+    <string name="preference.keep_screen.title">Don\'t turn off screen</string>
+    <string name="preference.video_quality.title">Video quality</string>
+    <string name="preference.video_quality.summary">Default video quality</string>
+    <string name="preference.main_settings">Main settings</string>
+    <string name="preference.additional_settings">Additional settings</string>
+    <string name="preference.check_for_update.title">Check for update</string>
+    <string name="preference.changelog.title">Changelog</string>
+    <string name="preference.homepage.title">Homepage</string>
+    <string name="preference.issue.title">Issue tracker</string>
+    <string name="preference.favorites.title">Use common favorites</string>
+
+    <string name="progress_dialog_description">Loading description</string>
+    <string name="tab_detail">Info</string>
+    <string name="tab_episodes">Episodes</string>
+    <string name="tab_comments">Comments</string>
+    <string name="gallery">Gallery</string>
+    <string name="more">more</string>
+    <string name="title_activity_screenshots">Screenshots</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_select_service">Select video service</string>
+
+    <string name="VK" translatable="false">vk.com</string>
+    <string name="SIBNET" translatable="false">sibnet.ru</string>
+    <string name="VIDEO24" translatable="false">24video.com</string>
+    <string name="KIVVI" translatable="false">kivvi.kz</string>
+    <string name="MYVI" translatable="false">myvi.ru</string>
+    <string name="MOONWALK" translatable="false">moonwalk.cc</string>
+    <string name="ANIDUB" translatable="false">anidub.com</string>
+    <string name="RUTUBE" translatable="false">rutube.ru</string>
+    <string name="YOUTUBE" translatable="false">youtube.com</string>
+    <string name="dialog_select_quality">Select quality</string>
+
+    <string name="action.remove_watched">Remove watched marks</string>
+    <string name="action_copied">File link copied successfully</string>
+    <string name="profile.animelend.name" translatable="false">Animelend INFO</string>
+    <string name="profile.animelend.url" translatable="false">http://animelend.info/</string>
+    <string name="profile.anidub.name" translatable="false">Anidub Online</string>
+    <string name="profile.anidub.url" translatable="false">http://online.anidub.com/</string>
+    <string name="profile.anistar.name" translatable="false">AniStar</string>
+    <string name="profile.anistar.url" translatable="false">http://anistar.ru/</string>
+    <string name="profile.animespirit.name" translatable="false">AnimeSpirit</string>
+    <string name="profile.animespirit.url" translatable="false">http://www.animespirit.ru/</string>
+
+    <string name="movie.info.year">Year</string>
+    <string name="movie.info.production">Production</string>
+    <string name="movie.info.genres">Genres</string>
+    <string name="movie.info.type">Type</string>
+    <string name="movie.info.aired">Aired</string>
+    <string name="movie.info.series">Series</string>
+    <string name="movie.info.producers">Producer</string>
+    <string name="movie.info.authors">Authors</string>
+    <string name="movie.info.postscoring">Postscoring</string>
+    <string name="movie.info.studio">Studio</string>
+    <string name="retry">RETRY</string>
+    <string name="tap_twice_for_exit">Please click BACK again to exit</string>
+    <string name="link_is_broken">Sorry, that link is not available.</string>
+    <string name="rutube_not_installed_title">Rutube not installed</string>
+    <string name="rutube_not_installed_content">For watching video install the application Rutube</string>
+    <string name="from_market" translatable="false">Google Market</string>
+    <string name="from_4pda" translatable="false">4pda</string>
+    <string name="rutube_4pda" translatable="false">http://4pda.ru/forum/index.php?showtopic=530798</string>
+    <string name="action_share">Share</string>
+    <string name="preference.theme.title">Select theme</string>
+    <string name="restart_app">Please, restart the app for apply theme.</string>
+
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="quality_ask">Ask</string>
+    <string name="choice_video_watch">Watch video</string>
+    <string name="choice_video_download">Download file</string>
+    <string name="choice_video_copy">Copy file link</string>
+    <string name="mask_as_watched">Mark as watched</string>
+    <string name="mask_as_unwatched">Mark as unwatched</string>
+    <string name="preference.ui_settings">UI settings</string>
+    <string name="preference.video_settings">Video settings</string>
+    <string name="preference.compact_header.title">Use compact header</string>
+    <string name="error.no_comment">No comments available</string>
+    <string name="error">Error</string>
+    <string name="preference.video_player.summary">Select default video player</string>
+    <string name="player_ask">Ask me</string>
+    <string name="player_integrated">Integrated</string>
+</resources>

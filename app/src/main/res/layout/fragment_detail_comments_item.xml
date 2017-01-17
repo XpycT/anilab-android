@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/comment_avatar"
+        android:layout_width="@dimen/comment_avatar"
+        android:layout_height="@dimen/comment_avatar"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle"
+        android:contentDescription="@string/app_name" />
+    <TextView
+        android:id="@+id/comment_author"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/comment_date"
+        android:layout_toRightOf="@+id/comment_avatar"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:text="title"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_author"
+        android:layout_toRightOf="@+id/comment_avatar"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:ellipsize="end"
+        android:maxLines="255"
+        android:text="desc"
+        android:textSize="@dimen/font_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:paddingBottom="@dimen/spacing_tiny" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:id="@+id/separator"
+        android:visibility="visible"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_below="@+id/comment_content"
+        android:layout_toRightOf="@+id/comment_avatar"
+        android:background="@color/secondary_text"/>
+
+    <TextView
+        android:id="@+id/comment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:text="date"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/font_medium" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5.0dip">
+
+    <ImageView
+        android:id="@+id/file_image"
+        android:layout_width="@dimen/spacing_huge"
+        android:layout_height="@dimen/spacing_huge"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/spacing_tiny"
+        android:padding="@dimen/spacing_tiny"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toLeftOf="@+id/file_context_menu"
+        android:layout_toRightOf="@+id/file_image"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/font_medium" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toLeftOf="@+id/file_context_menu"
+        android:layout_toRightOf="@+id/file_image"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/font_small" />
+
+    <ImageButton
+        android:id="@+id/file_context_menu"
+        android:layout_width="40dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/spacing_tiny"
+        android:background="?selectableItemBackgroundBorderless"
+        android:paddingBottom="@dimen/spacing_tiny"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_more_vert_white_24dp"
+        android:contentDescription="@string/app_name" />
+</RelativeLayout>

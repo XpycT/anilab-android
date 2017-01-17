@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion versionName="1.7.0" versioncode="14" changeDate="23/07/2016">
+        <changelogtext>Добавлено качество видео 1080p</changelogtext>
+        <changelogtext>Добавлен VLC for Android (выбирается в настройках)</changelogtext>
+        <changelogtext>Добавлен MX Player (выбирается в настройках)</changelogtext>
+        <changelogtext>Добавлен встроенный плеер (выбирается в настройках)</changelogtext>
+        <changelogtext>Проверка существования видео по ссылке во время открытия</changelogtext>
+        <changelogtext>Повышение стабильности</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.6.0.2" versioncode="13" changeDate="18/07/2016">
+        <changelogtext>Исправлен показ кол-ва избранного для Animespirit</changelogtext>
+        <changelogtext>Фикс вылета из избранного</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.6" versioncode="12" changeDate="16/07/2016">
+        <changelogtext>Добавлен сервис AnimeSpirit.ru</changelogtext>
+        <changelogtext>Убран сервис AnimeLend.info</changelogtext>
+        <changelogtext>Добавлено видео из Youtube</changelogtext>
+        <changelogtext>Поддержка многооконного режима Android N</changelogtext>
+        <changelogtext>Добавлена поддержка Android 7 (Nougat)</changelogtext>
+        <changelogtext>Улучшена совместимость с Android 6</changelogtext>
+        <changelogtext>Исправление ошибок</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.5.0" versioncode="10" changeDate="26/05/2016">
+        <changelogtext>Исправлено открытие ссылок sibnet</changelogtext>
+        <changelogtext>Ускорена выдача списка файлов</changelogtext>
+        <changelogtext>AnimeLand.SU заменен на AnimeLend.INFO</changelogtext>
+        <changelogtext>Исправление ошибок и повышение стабильности</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.3.1" versioncode="7" changeDate="30/12/2015">
+        <changelogtext>Повышение стабильности</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.2.20" versioncode="6" changeDate="23/10/2015">
+        <changelogtext>Исправлены ссылки на видео  AniDub</changelogtext>
+        <changelogtext>Подправлены ошибки интерфейса</changelogtext>
+        <changelogtext>Улучшена совместимость с Android 6</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.2.16" versioncode="5" changeDate="23/08/2015">
+        <changelogimprovement>скрытие иконки избранного в файлах и комментариях</changelogimprovement>
+        <changelogimprovement>возможность отметить отдельный эпизод просмотренным</changelogimprovement>
+        <changelogimprovement>компактный режим в меню</changelogimprovement>
+        <changelogtext>В AniStar скрыты комментарии</changelogtext>
+        <changelogtext>Исправление ошибок</changelogtext>
+        <changelogtext>Подправлена локализация</changelogtext>
+        <changelogtext>Улучшена стабильность и производительность</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.2" versioncode="4" changeDate="18/08/2015">
+        <changelogimprovement>Светлая тема</changelogimprovement>
+        <changelogimprovement>Возможность поделиться аниме</changelogimprovement>
+        <changelogimprovement>Общее избранное (включается в настройках)</changelogimprovement>
+        <changelogtext>Подправлена локализация</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="1.1.8" versioncode="3" changeDate="16/08/2015">
+        <changelogtext>Добавлена поддержка Myvi (пока через браузер)</changelogtext>
+        <changelogtext>Добавлена поддержка Rutube</changelogtext>
+        <changelogtext>Добавлена ссылка на Issue tracker (в настройках)</changelogtext>
+        <changelogtext>Проверка доступности качества видео для VK</changelogtext>
+        <changelogtext>Добавлено качество в 240p для VK</changelogtext>
+        <changelogimprovement>Проверка на существование файла перед скачиванием/проигрыванием</changelogimprovement>
+        <changelogbug>Редкий вылет при скачивании видео</changelogbug>
+        <changelogbug>Редкий вылет при выходе из поиска физической кнопкой "Back"</changelogbug>
+    </changelogversion>
+    <changelogversion versionName="1.1" versioncode="2" changeDate="8/08/2015">
+        <changelogimprovement>Сервис AniStar</changelogimprovement>
+        <changelogimprovement>Поддержка скачивания через Loader Droid</changelogimprovement>
+        <changelogimprovement>Оповещение о недоступной ссылке (видео заблокировано/удалено, доступно только к просмотру на сайте)</changelogimprovement>
+        <changelogbug>Исправлено избранное (не обновлялся список при удалении)</changelogbug>
+    </changelogversion>
+    <changelogversion versionName="1.0" versioncode="1" changeDate="1/08/2015">
+        <changelogtext>Первый релиз</changelogtext>
+    </changelogversion>
+</changelog>

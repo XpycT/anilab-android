@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/item_movie_card"
+    android:layout_width="@dimen/cardview_layout_width"
+    android:layout_height="@dimen/cardview_layout_height"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/spacing_mini"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:contentPadding="0dp"
+    card_view:cardElevation="@dimen/spacing_tiny">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/image_without_palette"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/item_movie_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@color/image_without_palette"
+                    android:scaleType="centerCrop"
+                    android:transitionName="poster"
+                    android:contentDescription="@string/app_name" />
+                <ImageView
+                    android:layout_width="@dimen/spacing_huge"
+                    android:layout_height="@dimen/spacing_huge"
+                    android:id="@+id/badge"
+                    android:src="@drawable/profile_anidub"
+                    android:background="@drawable/circle"
+                    android:layout_margin="@dimen/spacing_small"
+                    app:elevation="@dimen/default_elevation"
+                    android:contentDescription="@string/app_name"
+                    android:layout_alignTop="@+id/item_movie_poster"
+                    android:layout_alignEnd="@+id/item_movie_poster" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/item_movie_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/image_without_palette_opacity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_movie_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoText="false"
+                    android:elegantTextHeight="false"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:padding="8sp"
+                    android:text="Президент школьного совета моя невеста / Okusama ga Seitokaichou! (RUS)"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/font_medium" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
